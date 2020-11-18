@@ -19,4 +19,3 @@ if __name__ == "__main__":
         template = env.get_template(t)
         with open(t, 'w') as f:
             f.write(template.render())
-        # print(t)
