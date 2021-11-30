@@ -1,10 +1,56 @@
+body, nav {
+  background-color: #FAFAD2 !important;
+}
+
+.grad1 {
+  background-color: #BDB76B ; /* For browsers that do not support gradients */
+  background-image: linear-gradient(180deg, #BDB76B , #FAFAD2);
+  height: 100%;
+}
+.grad2 {
+  background-color: #DAA520 ;
+  background-image: linear-gradient(180deg, #DAA520 , #FAFAD2);
+  height: 100%;
+}
+.grad3 {
+  background-color: #B8860B ;
+  background-image: linear-gradient(180deg, #B8860B , #FAFAD2);
+  height: 100%;
+}
+.grad4 {
+  background-color: #F0E68C ;
+  background-image: linear-gradient(180deg, #F0E68C , #FAFAD2);
+  height: 100%;
+}
+.grad5 {
+  background-color: #FAFAD2;
+  background-image: linear-gradient(180deg, #FAFAD2 , #ffffeb);
+  height: 100%;
+}
+
+
+.navbar {
+  height: 5cm;
+}
+
+.nav-link, .navbar-nav {
+  height: 5cm !important;
+  vertical-align: middle;
+  /* line-height: 100%; */
+  margin: 0;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  font-size: large;
+}
+
 .foto-equipe {
     width: 70px;
 }
 
 
 #logo_menu {
-    max-height: 50px;
+    max-height: 4.5cm;
 }
 
 .marrom {
